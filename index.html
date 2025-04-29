@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Brands</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" />
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      main {
+        flex: 1;
+      }
+
+      .card img {
+        max-height: 200px;
+        object-fit: contain;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="samsung/Phonehub.png"
+              alt="Logo"
+              width=""
+              height="30"
+              class="d-inline-block align-text-top me-2"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >หน้าแรก</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                  >สินค้า
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="samsung.html">Samsung</a>
+                  </li>
+                  <li><a class="dropdown-item" href="Apple.html">Apple</a></li>
+                  <li><a class="dropdown-item" href="oppo.html">Oppo</a></li>
+                  <li><a class="dropdown-item" href="vivo.html">vivo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">เกี่ยวกับเรา</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" class="container mt-4">
+      <section id="hero" class="text-center bg-light p-5 rounded mb-4">
+        <h1>Welcome to Phonehub</h1>
+      </section>
+
+      <section id="featured-products" class="mb-5">
+        <h2 class="text-center mb-4">สินค้าแนะนำ</h2>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="samsung/s24 u.webp"
+                class="card-img-top"
+                alt="Phone Model A"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Samsung S24 Ultra</h5>
+                <p class="card-text">
+                  วาร์ปสู่ยุคใหม่ยุคของมือถือ AI ไปกับ Galaxy S24 Ultra
+                  นิยามใหม่ของสมาร์ทโฟน ที่ช่วยให้ชีวิตคุณง่ายขึ้น
+                  สร้างสรรค์ได้มากขึ้น จัดการทุกอย่างได้ง่ายขึ้น ด้วยพลังจาก
+                  Galaxy AI ในมือคุณ
+                </p>
+                <div class="mt-auto text-center">
+                  <a href="samsung.html" class="btn btn-outline-primary"
+                    >ดูรุ่นอื่นๆ</a
+                  >
+                  <a href="samsungshop.html" class="btn btn-success"
+                    >สั่งซื้อ</a
+                  >
+                </div>
+              </div>
+              <div class="card-footer text-muted text-center">
+                ราคาเริ่มต้น: 32,900 บาท
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="samsung/16pro.jpg"
+                class="card-img-top"
+                alt="Phone Model B"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">iPhone 16 Pro</h5>
+                <p class="card-text">
+                  เป็น Iphone รุ่นแรกที่สามารถถ่ายวีดีโอ ระดับ4K 120Fps ได้
+                  พร้อมมีการอัพพลังด้วยชิป A18 Pro
+                  ขับเคลื่อนคุณสมบัติสุดล้ำด้านภาพถ่ายและวิดีโอ
+                  ทั้งยังเป็นขุมพลังให้กับประสิทธิภาพด้านกราฟิกที่ดีที่สุดที่เราเคยมีมาสำหรับการเล่นเกมระดับ
+                  AAA
+                </p>
+                <div class="mt-auto text-center">
+                  <a href="Apple.html" class="btn btn-outline-primary"
+                    >ดูรุ่นอื่นๆ</a
+                  >
+                  <a href="apple16pro2.html" class="btn btn-success"
+                    >สั่งซื้อ</a
+                  >
+                </div>
+              </div>
+              <div class="card-footer text-muted text-center">
+                ราคาเริ่มต้น: 39,900 บาท
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="samsung/oppof5.webp"
+                class="card-img-top"
+                alt="Phone Model C"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">OPPO Find N5</h5>
+                <p class="card-text">
+                  จอพับสุดล้ำ กล้องระดับโปร ดีไซน์พรีเมียม ใช้งาน 3 แอปพร้อมกัน
+                  แบตอึด ชาร์จไว
+                </p>
+                <div class="mt-auto text-center">
+                  <a href="oppo.html" class="btn btn-outline-primary"
+                    >ดูรุ่นอื่นๆ</a
+                  >
+                  <a href="oppofine5N.html" class="btn btn-success">สั่งซื้อ</a>
+                </div>
+              </div>
+              <div class="card-footer text-muted text-center">
+                ราคา: 69,900บาท
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="samsung/iqoo13.png"
+                class="card-img-top"
+                alt="Phone Model C"
+              />
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">vivo iQOO 13</h5>
+                <p class="card-text">
+                  สัมผัสประสบการณ์ใหม่ของมือถือเรือธง
+                  ที่สร้างมาเพื่อเกมเมอร์ตัวจริง และคนรักความแรง!
+                  <br />
+                  ✅ ชิปเซ็ตระดับท็อป แรงลื่นไม่มีสะดุด
+                  <br />
+                  ✅ หน้าจอ AMOLED 120Hz ภาพคมกริบ ลื่นไหลทุกสัมผัส
+                  <br />
+                  ✅ระบบระบายความร้อนขั้นเทพ เล่นเกมยาว ๆ ไม่มีร้อน
+                  <br />
+                  ✅ชาร์จไวสุดขีด พร้อมลุยได้ตลอดเวลา
+                  <br />
+                  ✅ ดีไซน์สปอร์ต ดุดัน สะกดทุกสายตา
+                </p>
+                <div class="mt-auto text-center">
+                  <a href="vivo.html" class="btn btn-outline-primary"
+                    >ดูรุ่นอื่นๆ</a
+                  >
+                  <a href="#" class="btn btn-success">สั่งซื้อ</a>
+                </div>
+              </div>
+              <div class="card-footer text-muted text-center">
+                ราคา:27,900 บาท
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer class="bg-dark text-white pt-4 pb-4 mt-5">
+    <div class="container text-center">
+      <small
+        >&copy; เว็บไซต์นี้เป็นส่วนหนึ่งของรายวิชา WEB TECHNOLOGY
+        (520112)</small
+      >
+    </div>
+  </footer>
+</html>
